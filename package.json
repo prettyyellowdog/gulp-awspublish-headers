@@ -1,0 +1,30 @@
+{
+  "name": "gulp-awspublish-headers",
+  "version": "0.0.0",
+  "description": "Define per-file headers for gulp-awspublish.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmthrgd/gulp-awspublish-headers.git"
+  },
+  "keywords": [
+    "gulp-awspublish",
+    "http",
+    "headers",
+    "aws",
+    "s3"
+  ],
+  "author": "Tom Thorogood (https://tomthorogood.co.uk/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tmthrgd/gulp-awspublish-headers/issues"
+  },
+  "homepage": "https://github.com/tmthrgd/gulp-awspublish-headers#readme",
+  "dependencies": {
+    "minimatch": "^3.0.4",
+    "through2": "^2.0.3"
+  }
+}
