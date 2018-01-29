@@ -32,8 +32,6 @@ module.exports = function(headers) {
 		}
 
 		file.s3 = s3;
-
-		require('fancy-log')(file);
 		cb(null, file);
 	});
 };
