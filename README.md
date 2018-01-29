@@ -21,7 +21,7 @@ gulp.task('publish', function() {
 });
 ```
 
-Files may match multiple paths in which case the headers will be merged with the later defined headers taking prescedence.
+Files may match multiple paths in which case the headers will be merged with the later defined headers taking precedence.
 
 ## Installation
 
