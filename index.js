@@ -3,9 +3,14 @@
 const through = require('through2');
 const { Minimatch } = require('minimatch');
 
+// These are the options to pass to Minimatch.
+const options = {
+	dot: true,
+};
+
 module.exports = function(headers) {
 	const matches = Object.entries(headers).map(([key, value]) => ({
-		path: new Minimatch(key),
+		path: new Minimatch(key, options),
 		headers: Object.entries(value),
 	}));
 
