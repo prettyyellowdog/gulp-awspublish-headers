@@ -17,7 +17,16 @@
     "aws",
     "s3"
   ],
-  "author": "Tom Thorogood (https://tomthorogood.co.uk/)",
+  "authors": [
+    {
+      "name": "Tom Thorogood",
+      "url": "https://tomthorogood.co.uk"
+    },
+    {
+      "name": "Bill Jones",
+      "url": "https://3labs.tech"
+    }
+  ],
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/tmthrgd/gulp-awspublish-headers/issues"
