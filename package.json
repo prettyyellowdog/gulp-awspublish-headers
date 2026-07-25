@@ -1,6 +1,6 @@
 {
   "name": "gulp-awspublish-headers",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Define per-file headers for gulp-awspublish.",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/tmthrgd/gulp-awspublish-headers#readme",
   "dependencies": {
-    "minimatch": "^3.0.4",
+    "minimatch": "^10.2.5",
     "through2": "^2.0.3"
   }
 }
